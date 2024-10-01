@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "cw7"
+version = "0.1.0"
+description = ""
+authors = ["Maxim Talancev <maxtalwork@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+djangorestframework = "^3.15.2"
+redis = "^5.1.0"
+python-dotenv = "^1.0.1"
+pillow = "^10.4.0"
+psycopg2-binary = "^2.9.9"
+celery = "^5.4.0"
+requests = "^2.32.3"
+django-celery-beat = "^2.7.0"
+drf-yasg = "^1.21.7"
+djangorestframework-simplejwt = "^5.3.1"
+serializers = "^0.2.4"
+setuptools = "^75.1.0"
+black = "^24.8.0"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
