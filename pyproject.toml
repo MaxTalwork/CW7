@@ -21,6 +21,7 @@ serializers = "^0.2.4"
 setuptools = "^75.1.0"
 black = "^24.8.0"
 isort = "^5.13.2"
+docker = "^7.1.0"
 
 
 [build-system]
